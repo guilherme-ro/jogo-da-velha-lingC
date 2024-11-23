@@ -24,5 +24,7 @@ O jogo permite dois jogadores, em que um joga com 'X' e o outro com 'O'. O códi
 **Como jogar:**
 
   1 O jogador 'X' começa, e os jogadores se alternam entre as jogadas.
+  
   2 Para fazer uma jogada, o jogador deve digitar as coordenadas da linha e da coluna (ambas entre 0 e 2). Exemplo: "1 1" para a posição central.
+  
   3 O jogo termina quando um jogador vence ou quando o tabuleiro está cheio e não houve vitória (empate).
