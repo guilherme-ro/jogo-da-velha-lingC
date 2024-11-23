@@ -10,10 +10,15 @@ O jogo permite dois jogadores, em que um joga com 'X' e o outro com 'O'. O códi
 **Explicação do código:**
 
   1 **Inicialização do Tabuleiro:** A função inicializarTabuleiro preenche todas as posições do tabuleiro com o caractere ' ' (espaço em branco), indicando que estão vazias.
+  
   2 **Exibição do Tabuleiro:** A função exibirTabuleiro imprime o tabuleiro no formato de uma matriz 3x3 com as divisões entre as células.
+  
   3 **Verificação de Vitória:** A função verificarVitoria checa se o jogador atual conseguiu preencher uma linha, uma coluna ou uma diagonal com seu símbolo.
+  
   4 **Verificação de Empate:** A função verificarEmpate verifica se não há mais espaços vazios no tabuleiro e, ao mesmo tempo, nenhum jogador venceu, resultando em um empate.
+  
   5 **Lógica de Jogo:** No loop principal, os jogadores alternam entre as jogadas, e o programa verifica se houve vitória ou empate após cada jogada. Caso haja uma vitória ou empate, o jogo termina.
+  
   6 **Jogada Inválida:** O programa só permite que o jogador faça uma jogada válida, ou seja, ele precisa escolher uma posição que não tenha sido ocupada previamente.
 
 **Como jogar:**
